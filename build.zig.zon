@@ -14,20 +14,20 @@
     },
     .dependencies = .{
         .xcode_frameworks = .{
-            .url = "https://github.com/mitchellh/xcode-frameworks/archive/ffbdc420b20cbe0072c0612cf626a4cfa42f9a0a.tar.gz",
-            .hash = "1220ad21fb0fc54ee40994b6f95d7fbbe28b27147ef3bb24f5fe98a68edf87664346",
+            .url = "https://github.com/mitchellh/xcode-frameworks/archive/2f1e3ef8db46dfc06c3e9f391693c21b15655e6d.tar.gz",
+            .hash = "1220952bf2759bf72187441dead4dfcebce9ff0d6e1cbb4a68355a11d1f7287e0683",
         },
         .vulkan_headers = .{
             .url = "https://github.com/mitchellh/vulkan-headers/archive/04c8a0389d5a0236a96312988017cd4ce27d8041.tar.gz",
             .hash = "122004bfd4c519dadfb8e6281a42fc34fd1aa15aea654ea8a492839046f9894fa2cf",
         },
         .wayland_headers = .{
-            .url = "https://github.com/mitchellh/wayland-headers/archive/087aeb7c8dd44f9dc2af6463a71024966ae7b7ce.tar.gz",
-            .hash = "12206f267bf499a1f948b0e3b41252c47622c5fee1c9d0f53e94339cac9ccd2a4d7c",
+            .url = "https://github.com/mitchellh/wayland-headers/archive/5f991515a29f994d87b908115a2ab0b899474bd1.tar.gz",
+            .hash = "1220b3164434d2ec9db146a40bf3a30f490590d68fa8529776a3138074f0da2c11ca",
         },
         .x11_headers = .{
-            .url = "https://github.com/mitchellh/x11-headers/archive/dbad27c3e1a2fe462e9d4d4c40f15ed7e3c3b881.tar.gz",
-            .hash = "12209675991a05d03c49bc0748aeb230883005cd318714dde531344e560a866bc748",
+            .url = "https://github.com/mitchellh/x11-headers/archive/2ffbd62d82ff73ec929dd8de802bc95effa0ef88.tar.gz",
+            .hash = "122089c326186c84aa2fd034b16abc38f3ebf4862d9ae106dc1847ac44f557b36465",
         },
     },
 }
