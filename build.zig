@@ -30,11 +30,13 @@ pub fn build(b: *std.Build) void {
 
     lib.installHeadersDirectory(.{ .path = "include/GLFW" }, "GLFW", .{});
     // GLFW headers depend on these headers, so they must be distributed too.
-    const vulkan_headers_dep = b.dependency("vulkan_headers", .{
-        .target = target,
-        .optimize = optimize,
-    });
-    lib.installLibraryHeaders(vulkan_headers_dep.artifact("vulkan-headers"));
+    // This breaks with the latest Zig at the time of writing. I'm not sure if
+    // this is a Zig bug. So I'm just removing this.
+    // const vulkan_headers_dep = b.dependency("vulkan_headers", .{
+    //     .target = target,
+    //     .optimize = optimize,
+    // });
+    //lib.installLibraryHeaders(vulkan_headers_dep.artifact("vulkan-headers"));
     if (target.result.os.tag == .linux) {
         const x11_headers_dep = b.dependency("x11_headers", .{
             .target = target,
