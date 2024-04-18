@@ -18,8 +18,8 @@
             .hash = "1220ad21fb0fc54ee40994b6f95d7fbbe28b27147ef3bb24f5fe98a68edf87664346",
         },
         .vulkan_headers = .{
-            .url = "https://github.com/mitchellh/vulkan-headers/archive/3d219c32d3129ca91db1424bab9b928f5f1c4256.tar.gz",
-            .hash = "122086f6c163cc44c793da3802e3a9c3fe29b86d7c7622ea0d187bd56e69850aeb19",
+            .url = "https://github.com/mitchellh/vulkan-headers/archive/04c8a0389d5a0236a96312988017cd4ce27d8041.tar.gz",
+            .hash = "122004bfd4c519dadfb8e6281a42fc34fd1aa15aea654ea8a492839046f9894fa2cf",
         },
         .wayland_headers = .{
             .url = "https://github.com/mitchellh/wayland-headers/archive/087aeb7c8dd44f9dc2af6463a71024966ae7b7ce.tar.gz",
