@@ -22,7 +22,7 @@ pub fn build(b: *std.Build) void {
             .optimize = optimize,
         },
     });
-    lib.addIncludePath(.{ .path = "include" });
+    lib.addIncludePath(b.path("include"));
     lib.linkLibC();
     addPaths(&lib.root_module);
 
